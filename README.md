@@ -1,4 +1,4 @@
-
+To build container you are to move to Docker/ and write that command: sudo docker-compose up --build <br>
 Docker Configuration
 <br>
 Here is an overview of the Docker services:<br>
