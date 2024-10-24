@@ -1,6 +1,10 @@
 To build container you are to move to Docker/ and write that command: <br>
 ```bash
+git clone https://github.com/MarzanIvan/shop-php.git
+cd Docker
 sudo docker-compose up --build
+curl http://localhost:9000/ 
+curl http://localhost:9001/
 
 ```
 Docker Configuration
