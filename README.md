@@ -1,4 +1,5 @@
-To build container you are to move to Docker/ and write that command: <br>
+<h3>To build container you are to move to Docker/ and write that command: </h3><br>
+
 ```bash
 git clone https://github.com/MarzanIvan/shop-php.git
 cd Docker
@@ -7,6 +8,12 @@ curl http://localhost:9000/
 curl http://localhost:9001/
 
 ```
+<h3>To get sql code for mysql_db:</h3>
+
+```bash
+cat "App/Source/The program code of database/Create DB.sql"
+```
+
 Docker Configuration
 <br>
 Here is an overview of the Docker services:<br>
