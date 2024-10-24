@@ -1,6 +1,6 @@
 To build container you are to move to Docker/ and write that command: <br>
 ```bash
-sudo docker-compose up --build <br>
+sudo docker-compose up --build
 
 ```
 Docker Configuration
