@@ -1,0 +1,22 @@
+
+services:
+  php_env:
+    build: .
+    volumes:
+      - ../App/:/var/www/html
+    ports:
+      - 9000:80
+
+  mysql_db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 9001:80
+    environment:
+      - PMA_ARBITRARY=1
